@@ -1224,7 +1224,7 @@ SQL> create or replace procedure p1(a number, b number)
  12  
  13      fetch c1 into c;
  14      if sql%notfound then
- 15  	dbms_output.put_line('No rows have benn found');
+ 15  	dbms_output.put_line('No rows have been found');
  16      else
  17  
  18         update employees
